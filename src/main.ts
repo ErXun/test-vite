@@ -1,9 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import './index.css'
+import './index.scss'
 import { createWebHashHistory, createRouter } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-import Hi from './components/Hi.vue'
+import Home from './views/Home.vue'
+import Doc from './views/Doc.vue'
 
 // 初始化 vue-router 4.0
 const history = createWebHashHistory()
@@ -12,11 +12,11 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      component: HelloWorld
+      component: Home
     },
     {
-      path: '/hi',
-      component: Hi
+      path: '/doc',
+      component: Doc
     }
   ]
 })
