@@ -1,0 +1,115 @@
+<template>
+  <div>
+    <ul>
+      <li>Switch1</li>
+      <li>Switch2</li>
+      <li>Switch3</li>
+      <li>Switch4</li>
+      <li>Switch5</li>
+      <li>Switch6</li>
+      <li>Switch7</li>
+      <li>Switch8</li>
+      <li>Switch9</li>
+      <li>Switch10</li>
+      <li>Switch11</li>
+      <li>Switch12</li>
+      <li>Switch13</li>
+      <li>Switch14</li>
+      <li>Switch15</li>
+      <li>Switch16</li>
+      <li>Switch17</li>
+      <li>Switch18</li>
+      <li>Switch19</li>
+      <li>Switch20</li>
+      <li>Switch21</li>
+      <li>Switch22</li>
+      <li>Switch23</li>
+      <li>Switch24</li>
+      <li>Switch25</li>
+      <li>Switch26</li>
+      <li>Switch27</li>
+      <li>Switch28</li>
+      <li>Switch29</li>
+      <li>Switch30</li>
+      <li>Switch31</li>
+      <li>Switch32</li>
+      <li>Switch33</li>
+      <li>Switch34</li>
+      <li>Switch35</li>
+      <li>Switch36</li>
+      <li>Switch37</li>
+      <li>Switch38</li>
+      <li>Switch39</li>
+      <li>Switch40</li>
+      <li>Switch41</li>
+      <li>Switch42</li>
+      <li>Switch43</li>
+      <li>Switch44</li>
+      <li>Switch45</li>
+      <li>Switch46</li>
+      <li>Switch47</li>
+      <li>Switch48</li>
+      <li>Switch49</li>
+      <li>Switch50</li>
+      <li>Switch51</li>
+      <li>Switch52</li>
+      <li>Switch53</li>
+      <li>Switch54</li>
+      <li>Switch55</li>
+      <li>Switch56</li>
+      <li>Switch57</li>
+      <li>Switch58</li>
+      <li>Switch59</li>
+      <li>Switch60</li>
+      <li>Switch61</li>
+      <li>Switch62</li>
+      <li>Switch63</li>
+      <li>Switch64</li>
+      <li>Switch65</li>
+      <li>Switch66</li>
+      <li>Switch67</li>
+      <li>Switch68</li>
+      <li>Switch69</li>
+      <li>Switch70</li>
+      <li>Switch71</li>
+      <li>Switch72</li>
+      <li>Switch73</li>
+      <li>Switch74</li>
+      <li>Switch75</li>
+      <li>Switch76</li>
+      <li>Switch77</li>
+      <li>Switch78</li>
+      <li>Switch79</li>
+      <li>Switch80</li>
+      <li>Switch81</li>
+      <li>Switch82</li>
+      <li>Switch83</li>
+      <li>Switch84</li>
+      <li>Switch85</li>
+      <li>Switch86</li>
+      <li>Switch87</li>
+      <li>Switch88</li>
+      <li>Switch89</li>
+      <li>Switch90</li>
+      <li>Switch91</li>
+      <li>Switch92</li>
+      <li>Switch93</li>
+      <li>Switch94</li>
+      <li>Switch95</li>
+      <li>Switch96</li>
+      <li>Switch97</li>
+      <li>Switch98</li>
+      <li>Switch99</li>
+      <li>Switch100</li>
+    </ul>
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+<style scoped>
+
+</style>
