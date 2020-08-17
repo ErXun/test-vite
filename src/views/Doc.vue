@@ -2,25 +2,28 @@
   <div class="layout">
     <Tobnav class="topnav" />
     <div class="content">
-      <aside v-if="asideVisible">
-        <ul>
-          <li>
-            <h3>组件列表</h3>
-          </li>
-          <li>
-            <router-link to="/doc/switch">Switch 组件</router-link>
-          </li>
-          <li>
-            <router-link to="/doc/button">Button 组件</router-link>
-          </li>
-          <li>
-            <router-link to="/doc/dialog">Dialog 组件</router-link>
-          </li>
-          <li>
-            <router-link to="/doc/tabs">Tabs 组件</router-link>
-          </li>
-        </ul>
-      </aside>
+      <transition name="aside">
+        <aside v-if="asideVisible">
+          <ul>
+            <li>
+              <h3>组件列表</h3>
+            </li>
+            <li>
+              <router-link to="/doc/switch">Switch 组件</router-link>
+            </li>
+            <li>
+              <router-link to="/doc/button">Button 组件</router-link>
+            </li>
+            <li>
+              <router-link to="/doc/dialog">Dialog 组件</router-link>
+            </li>
+            <li>
+              <router-link to="/doc/tabs">Tabs 组件</router-link>
+            </li>
+          </ul>
+        </aside>
+      </transition>
+
       <main>
         <router-view />
       </main>
@@ -70,13 +73,24 @@ export default {
       > ul li {
         margin: 10px 0;
       }
+      z-index: 8;
     }
     > main {
       padding: 10px;
       flex-grow: 1;
-      background-color: rgb(137, 223, 145);
+      // background-color: rgb(137, 223, 145);
       overflow: auto;
     }
+  }
+}
+.content {
+  .aside-enter-active {
+    transition: all 1s ease;
+    // transform: translate(-75px, 0);
+  }
+  .aside-leave-active {
+    transition: all 1s cubic-bezier(0.4, 0, 0, 1);
+    transform: translate(-280px, 0);
   }
 }
 </style>
