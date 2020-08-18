@@ -1,9 +1,9 @@
 <template>
-  <ex-button 
-    @click="onClick" 
-    @focus="onFocus" 
-    @mouseover="onMouseover" 
-    size="small">我是按钮</ex-button>
+  <h1>示例一</h1>
+  <ex-button>默认按钮</ex-button>
+  <ex-button theme="primary">主要按钮</ex-button>
+  <ex-button theme="success">成功按钮</ex-button> 
+  <ex-button theme="warning">警告按钮</ex-button> 
 </template>
 
 <script lang='ts'>
@@ -13,19 +13,5 @@ export default {
   components: {
     ExButton,
   },
-  setup() {
-    const onClick = () => {
-      console.log("onClick");
-    };
-    const onFocus = () => {
-      console.log("onFocus");
-    };
-    const onMouseover = () => {
-      console.log("onMouseover");
-    };
-    return { onClick, onFocus, onMouseover };
-  },
 };
 </script>
-<style scoped>
-</style>

@@ -1,5 +1,5 @@
 <template>
-  <button @click="toggle" :class="{'checked': value}">
+  <button @click="toggle" class="ex-switch" :class="{'ex-checked': value}">
     <span></span>
   </button>
 </template>
@@ -22,10 +22,10 @@ export default {
   },
 };
 </script>
-<style scoped lang="scss">
+<style lang="scss">
 $h: 22px;
 $h1: $h - 4px;
-button {
+.ex-switch {
   height: $h;
   width: $h * 2;
   border: none;
@@ -43,10 +43,10 @@ button {
     left: 3px;
     transition: left 250ms;
   }
-  &.checked {
+  &.ex-checked {
     background-color: #1890ff;
   }
-  &.checked > span {
+  &.ex-checked > span {
     left: calc(100% - #{$h1} - 3px);
   }
   &:focus {
