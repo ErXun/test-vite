@@ -85,8 +85,8 @@ export default {
 }
 .content {
   .aside-enter-active {
-    transition: all 1s ease;
-    // transform: translate(-75px, 0);
+    transition: all 1s cubic-bezier(0.4, 0, 0, 1);
+    transform: translate(0px, 0);
   }
   .aside-leave-active {
     transition: all 1s cubic-bezier(0.4, 0, 0, 1);
